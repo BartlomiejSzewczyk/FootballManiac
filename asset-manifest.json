@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/FootballManiac/static/css/main.a617e044.chunk.css",
-    "main.js": "/FootballManiac/static/js/main.35e5c8f9.chunk.js",
-    "main.js.map": "/FootballManiac/static/js/main.35e5c8f9.chunk.js.map",
-    "runtime-main.js": "/FootballManiac/static/js/runtime-main.d2222465.js",
-    "runtime-main.js.map": "/FootballManiac/static/js/runtime-main.d2222465.js.map",
-    "static/js/2.27670e78.chunk.js": "/FootballManiac/static/js/2.27670e78.chunk.js",
-    "static/js/2.27670e78.chunk.js.map": "/FootballManiac/static/js/2.27670e78.chunk.js.map",
-    "static/js/3.3e9ed76a.chunk.js": "/FootballManiac/static/js/3.3e9ed76a.chunk.js",
-    "static/js/3.3e9ed76a.chunk.js.map": "/FootballManiac/static/js/3.3e9ed76a.chunk.js.map",
+    "main.css": "/FootballManiac/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/FootballManiac/static/js/main.37e0950b.chunk.js",
+    "main.js.map": "/FootballManiac/static/js/main.37e0950b.chunk.js.map",
+    "runtime-main.js": "/FootballManiac/static/js/runtime-main.a52e8dbd.js",
+    "runtime-main.js.map": "/FootballManiac/static/js/runtime-main.a52e8dbd.js.map",
+    "static/js/2.1d10a766.chunk.js": "/FootballManiac/static/js/2.1d10a766.chunk.js",
+    "static/js/2.1d10a766.chunk.js.map": "/FootballManiac/static/js/2.1d10a766.chunk.js.map",
+    "static/js/3.7e46bbef.chunk.js": "/FootballManiac/static/js/3.7e46bbef.chunk.js",
+    "static/js/3.7e46bbef.chunk.js.map": "/FootballManiac/static/js/3.7e46bbef.chunk.js.map",
     "index.html": "/FootballManiac/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/FootballManiac/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.27670e78.chunk.js.LICENSE.txt": "/FootballManiac/static/js/2.27670e78.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/FootballManiac/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/FootballManiac/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1d10a766.chunk.js.LICENSE.txt": "/FootballManiac/static/js/2.1d10a766.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2222465.js",
-    "static/js/2.27670e78.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.35e5c8f9.chunk.js"
+    "static/js/runtime-main.a52e8dbd.js",
+    "static/js/2.1d10a766.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.37e0950b.chunk.js"
   ]
 }
