@@ -1,23 +1,39 @@
 import styled from "styled-components";
-import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import * as appActions from "../actions/appActions";
+import HeaderOption from "./HeaderOption";
+import Menu, { SubMenu, Item as MenuItem, Divider } from "rc-menu";
+import "rc-menu/assets/index.css";
+import Logo from "./Logo";
 
 const HeaderField = styled.div`
-  width: 100%;
-  height: 100px;
   background-color: green;
+  display: flex;
 `;
 
+const HeaderOptionsField = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+`;
+
+const optionNames = ["Drużyny", "Mecze"];
+
 const Header = () => {
-  const [testData, setTestData] = useState("");
-  const dispatch = useDispatch();
+  const renderOptions = () => {
+    return optionNames.map((option) => {
+      return <HeaderOption title={option} />;
+    });
+  };
 
-  useEffect(() => {
-    dispatch(appActions.getTestData(setTestData));
-  }, []);
-
-  return <HeaderField>aTest</HeaderField>;
+  return (
+    <HeaderField>
+      <Logo />
+      <HeaderOptionsField>
+        <HeaderOption title={"Drużyny"}></HeaderOption>
+        <HeaderOption title={"Mecze"}></HeaderOption>
+        <HeaderOption title={"O stronie"}></HeaderOption>
+      </HeaderOptionsField>
+    </HeaderField>
+  );
 };
 
 export default Header;
