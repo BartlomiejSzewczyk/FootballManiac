@@ -1,13 +1,13 @@
 export const headerState = {
-  fieldSize: 10,
+  selectedCountry: "",
 };
 
 const headerReducer = (state = headerState, action) => {
   switch (action.type) {
-    case "CHANGE_FIELD_SIZE":
+    case "SET_SELECTED_COUNTRY":
       return {
         ...state,
-        fieldSize: action.value,
+        selectedCountry: action.value,
       };
     default:
       return state;

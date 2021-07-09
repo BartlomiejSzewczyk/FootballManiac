@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { iconsUsage } from "../res/iconsUsage";
+import { iconsImages } from "../res/iconsImages";
 
 const WebSiteInfoField = styled.div`
   width: 100%;
@@ -44,7 +45,7 @@ const WebSiteInfo = () => {
       return (
         <IconInfoField>
           <IconField>
-            <IconImage src={icon.image} />
+            <IconImage src={iconsImages[icon.image]} />
           </IconField>
           <div>
             Icons made by{" "}
