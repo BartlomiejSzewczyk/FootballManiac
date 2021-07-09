@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import HeaderOption from "./HeaderOption";
-import Menu, { SubMenu, Item as MenuItem, Divider } from "rc-menu";
-import "rc-menu/assets/index.css";
 import Logo from "./Logo";
+import { useDispatch } from "react-redux";
+import * as actionsApp from "../actions/appActions";
+import CountriesOptions from "./CountriesOptions";
 
 const HeaderField = styled.div`
-  background-color: green;
+  background-color: #161b22;
   display: flex;
 `;
 
@@ -15,22 +16,27 @@ const HeaderOptionsField = styled.div`
   flex-grow: 1;
 `;
 
-const optionNames = ["Drużyny", "Mecze"];
-
 const Header = () => {
-  const renderOptions = () => {
-    return optionNames.map((option) => {
-      return <HeaderOption title={option} />;
-    });
-  };
+  const dispatch = useDispatch();
 
   return (
     <HeaderField>
       <Logo />
       <HeaderOptionsField>
-        <HeaderOption title={"Drużyny"}></HeaderOption>
-        <HeaderOption title={"Mecze"}></HeaderOption>
-        <HeaderOption title={"O stronie"}></HeaderOption>
+        <CountriesOptions />
+        <HeaderOption
+          title={"Drużyny"}
+          tabs={["Niemcy", "Anglia", "Włochy", "Hiszpania"]}
+        ></HeaderOption>
+        <HeaderOption
+          title={"Drużyny"}
+          tabs={["Niemcy", "Anglia", "Włochy", "Hiszpania"]}
+        ></HeaderOption>
+        <HeaderOption
+          title={"Mecze"}
+          tabs={["Liga mistrzów", "Mistrzostwa Europy", "Liga Europy"]}
+        ></HeaderOption>
+        <HeaderOption title={"O stronie"} tabs={[]}></HeaderOption>
       </HeaderOptionsField>
     </HeaderField>
   );
