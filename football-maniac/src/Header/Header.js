@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import HeaderOption from "./HeaderOption";
 import Logo from "./Logo";
+import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import * as actionsApp from "../actions/appActions";
 import CountriesOptions from "./CountriesOptions";
@@ -8,6 +9,8 @@ import CountriesOptions from "./CountriesOptions";
 const HeaderField = styled.div`
   background-color: #161b22;
   display: flex;
+  z-index: 10;
+  width: 100%;
 `;
 
 const HeaderOptionsField = styled.div`
@@ -16,11 +19,11 @@ const HeaderOptionsField = styled.div`
   flex-grow: 1;
 `;
 
-const Header = () => {
+const Header = ({ headerRef }) => {
   const dispatch = useDispatch();
 
   return (
-    <HeaderField>
+    <HeaderField ref={headerRef}>
       <Logo />
       <HeaderOptionsField>
         <CountriesOptions />

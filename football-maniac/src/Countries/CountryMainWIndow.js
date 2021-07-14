@@ -2,13 +2,8 @@ import { useSelector } from "react-redux";
 import styled from "styled-components";
 import { clubs } from "../res/clubs";
 import { iconsImages } from "../res/iconsImages";
-
-const Info = styled.div`
-  font-size: 1.5rem;
-  margin: 1rem;
-  color: white;
-  text-align: center;
-`;
+import CountryTableLeague from "./CountryTableLeague";
+import Info from "./Info";
 
 const ClubField = styled.div`
   border-radius: 10px;
@@ -27,7 +22,7 @@ const AllClubsField = styled.div`
 `;
 
 const ClubLogoField = styled.div`
-  width: 10rem;
+  width: 6rem;
   margin: 1rem;
   cursor: pointer;
 `;
@@ -38,6 +33,15 @@ const ClubLogoImage = styled.img`
 `;
 
 const ClubName = styled.div``;
+
+const MainWindowField = styled.div`
+  display: flex;
+`;
+
+const SelectClubField = styled.div`
+  position: relative;
+  overflow: auto;
+`;
 
 const CountryMainWindow = () => {
   const selectedCountry = useSelector(
@@ -64,8 +68,13 @@ const CountryMainWindow = () => {
   };
   return (
     <>
-      <Info>Wybierz drużynę</Info>
-      <AllClubsField>{renderClubs()}</AllClubsField>
+      <MainWindowField>
+        <SelectClubField>
+          <Info text={"Wybierz drużynę"} />
+          <AllClubsField>{renderClubs()}</AllClubsField>
+        </SelectClubField>
+        <CountryTableLeague />
+      </MainWindowField>
     </>
   );
 };
