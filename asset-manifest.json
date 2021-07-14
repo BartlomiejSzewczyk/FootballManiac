@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/FootballManiac/static/css/main.0ba7661f.chunk.css",
-    "main.js": "/FootballManiac/static/js/main.81a9ff44.chunk.js",
-    "main.js.map": "/FootballManiac/static/js/main.81a9ff44.chunk.js.map",
-    "runtime-main.js": "/FootballManiac/static/js/runtime-main.b44c32b3.js",
-    "runtime-main.js.map": "/FootballManiac/static/js/runtime-main.b44c32b3.js.map",
-    "static/js/2.6db6fafa.chunk.js": "/FootballManiac/static/js/2.6db6fafa.chunk.js",
-    "static/js/2.6db6fafa.chunk.js.map": "/FootballManiac/static/js/2.6db6fafa.chunk.js.map",
-    "static/js/3.1ff5fcea.chunk.js": "/FootballManiac/static/js/3.1ff5fcea.chunk.js",
-    "static/js/3.1ff5fcea.chunk.js.map": "/FootballManiac/static/js/3.1ff5fcea.chunk.js.map",
+    "main.js": "/FootballManiac/static/js/main.2f66b49d.chunk.js",
+    "main.js.map": "/FootballManiac/static/js/main.2f66b49d.chunk.js.map",
+    "runtime-main.js": "/FootballManiac/static/js/runtime-main.3060bd02.js",
+    "runtime-main.js.map": "/FootballManiac/static/js/runtime-main.3060bd02.js.map",
+    "static/js/2.7b011917.chunk.js": "/FootballManiac/static/js/2.7b011917.chunk.js",
+    "static/js/2.7b011917.chunk.js.map": "/FootballManiac/static/js/2.7b011917.chunk.js.map",
+    "static/js/3.36e6b938.chunk.js": "/FootballManiac/static/js/3.36e6b938.chunk.js",
+    "static/js/3.36e6b938.chunk.js.map": "/FootballManiac/static/js/3.36e6b938.chunk.js.map",
     "index.html": "/FootballManiac/index.html",
     "static/css/main.0ba7661f.chunk.css.map": "/FootballManiac/static/css/main.0ba7661f.chunk.css.map",
-    "static/js/2.6db6fafa.chunk.js.LICENSE.txt": "/FootballManiac/static/js/2.6db6fafa.chunk.js.LICENSE.txt"
+    "static/js/2.7b011917.chunk.js.LICENSE.txt": "/FootballManiac/static/js/2.7b011917.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b44c32b3.js",
-    "static/js/2.6db6fafa.chunk.js",
+    "static/js/runtime-main.3060bd02.js",
+    "static/js/2.7b011917.chunk.js",
     "static/css/main.0ba7661f.chunk.css",
-    "static/js/main.81a9ff44.chunk.js"
+    "static/js/main.2f66b49d.chunk.js"
   ]
 }
