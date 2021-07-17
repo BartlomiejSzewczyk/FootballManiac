@@ -10,6 +10,21 @@ body {
   font-family: "Arial";
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+  z-index: 100;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e3846;
+}
+
 @media screen and (min-width: 425px) {
   :root {
     font-size: 10px;

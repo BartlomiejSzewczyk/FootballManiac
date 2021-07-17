@@ -13,6 +13,34 @@ exports.iconsImages = {
     "https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg",
   bayernMonachiumLogo:
     "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+  bayerLeverkusenLogo:
+    "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
   wolfsburgLogo:
     "https://upload.wikimedia.org/wikipedia/commons/c/ce/VfL_Wolfsburg_Logo.svg",
+  herthaLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg",
+  bochumLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/7/72/VfL_Bochum_logo.svg",
+  borussiaDortmundLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+  arminiaLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
+  borussiaMoenchengladbachLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg",
+  hoffenheimLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg",
+  koelnLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/d/d8/Emblem_1.FC_K%C3%B6ln.svg",
+  mainzLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/0/0b/FSV_Mainz_05_Logo.svg",
+  freiburgLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_SC_Freiburg_Od_1958.gif",
+  furthLogo:
+    "https://upload.wikimedia.org/wikipedia/en/f/f2/SpVgg_Greuther_F%C3%BCrth_logo_%282017%29.svg",
+  augsburgLogo:
+    "https://upload.wikimedia.org/wikipedia/en/c/c5/FC_Augsburg_logo.svg",
+  stuttgartLogo:
+    "https://upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg",
+  lipskLogo:
+    "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg",
 };

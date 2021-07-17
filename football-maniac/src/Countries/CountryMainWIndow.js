@@ -12,6 +12,9 @@ const ClubField = styled.div`
   background-color: #bfcde0;
   cursor: pointer;
   text-align: center;
+  &:hover {
+    background-color: #d4e4f9;
+  }
 `;
 
 const AllClubsField = styled.div`
@@ -22,20 +25,27 @@ const AllClubsField = styled.div`
 `;
 
 const ClubLogoField = styled.div`
+  height: 6rem;
   width: 6rem;
   margin: 1rem;
   cursor: pointer;
+  display: inline-flex;
 `;
 
 const ClubLogoImage = styled.img`
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 `;
 
 const ClubName = styled.div``;
 
 const MainWindowField = styled.div`
-  display: flex;
+  display: inline-flex;
 `;
 
 const SelectClubField = styled.div`

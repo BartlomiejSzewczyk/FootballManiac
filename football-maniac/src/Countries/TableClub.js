@@ -9,16 +9,17 @@ const TableClubData = styled.td`
   padding: 0 10px;
 `;
 
-const TableClub = ({ clubInfo }) => {
+const TableClub = ({ clubInfo, index }) => {
   return (
     <TableClubField>
+      <TableClubData>{`${index}.`}</TableClubData>
       <TableClubData>{clubInfo.name}</TableClubData>
       <TableClubData>{clubInfo.matches}</TableClubData>
       <TableClubData>{clubInfo.wins}</TableClubData>
       <TableClubData>{clubInfo.draws}</TableClubData>
       <TableClubData>{clubInfo.losers}</TableClubData>
       <TableClubData>{clubInfo.points}</TableClubData>
-      <TableClubData>{`${clubInfo.goalsScored} - ${clubInfo.goalsConceded}`}</TableClubData>
+      <TableClubData>{`${clubInfo.goalsScored}-${clubInfo.goalsConceded}`}</TableClubData>
     </TableClubField>
   );
 };

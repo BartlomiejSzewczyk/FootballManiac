@@ -11,6 +11,7 @@ const CountryTableHeader = () => {
     <>
       <TableHeader>
         <TableHeaderRow>
+          <TableHeaderData />
           <TableHeaderData>Drużyna</TableHeaderData>
           <TableHeaderData>M</TableHeaderData>
           <TableHeaderData>W</TableHeaderData>

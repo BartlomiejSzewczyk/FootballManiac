@@ -23,10 +23,16 @@ const CountryTableLeague = () => {
     (state) => state.headerReducer.selectedCountry
   );
 
+  const sortTable = (a, b) => {
+    return b.points - a.points;
+  };
+
   const renderClubs = () => {
-    return leagueTables[selectedCountry].map((clubInfo) => {
-      return <TableClub clubInfo={clubInfo} />;
-    });
+    return leagueTables[selectedCountry]
+      .sort(sortTable)
+      .map((clubInfo, index) => {
+        return <TableClub clubInfo={clubInfo} index={index + 1} />;
+      });
   };
 
   return (

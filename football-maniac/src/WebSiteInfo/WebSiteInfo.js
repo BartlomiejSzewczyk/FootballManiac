@@ -6,7 +6,6 @@ const WebSiteInfoField = styled.div`
   width: 100%;
   position: relative;
   overflow: auto;
-  height: 100%;
 `;
 
 const IconField = styled.div`
